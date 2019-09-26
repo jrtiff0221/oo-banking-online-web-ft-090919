@@ -29,7 +29,7 @@ describe 'Transfer' do
     end
   end
 
-  describe '#ç' do
+  describe '#valid?' do
     it "can check that both accounts are valid" do
       expect(avi.valid?).to eq (true)
       expect(amanda.valid?).to eq(true)
